@@ -1,0 +1,19 @@
+{
+	"name": "Fix custom weapon crash",
+	"description": "Fix crashes caused by leftover custom weapons. Please remove or disable after using.",
+	"author": "Rokk",
+	"contact": "https://steamcommunity.com/id/rokk",
+	"version": "1",
+	"priority": 0,
+	"blt_version" : 2,
+	"hooks": [
+		{
+			"hook_id": "lib/managers/weaponfactorymanager",
+			"script_path": "weaponfactorymanager.lua"
+		},
+		{
+			"hook_id": "lib/managers/blackmarketmanager",
+			"script_path": "blackmarketmanager.lua"
+		}
+	]
+}

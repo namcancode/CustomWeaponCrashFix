@@ -1,0 +1,3 @@
+function BlackMarketManager:get_silencer_concealment_modifiers(weapon)
+	return 0
+end
